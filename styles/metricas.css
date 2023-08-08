@@ -1,0 +1,25 @@
+.metricas__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin: 0.5em 5em;
+  margin-top: 5em;
+}
+
+.tit {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--vermelho);
+  margin-bottom: 0.4em;
+}
+
+.parag__subtit {
+  font-weight: 500;
+  color: var(--cinza-escuro);
+  margin-bottom: 1em;
+}
+
+.parag__texto {
+  font-size: 16px;
+  color: var(--cinza);
+}

@@ -1,0 +1,39 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--cinza-fundo);
+}
+
+.rodape h2 {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 2em 0 0.5em 0;
+  margin-bottom: 0.4em;
+}
+
+.rodape span {
+  font-size: 20px;
+  color: var(--cinza);
+}
+
+.rodape__email {
+  border-radius: 0.5em;
+  border: 1px solid #d0d5dd;
+  padding: 0.8em 1em;
+  margin: 3.5em 1em 0.5em 2em;
+  width: 27%;
+}
+.rodape__email::placeholder {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  text-align: initial;
+  color: var(--cinza);
+  border-color: var(--cinza-fundo);
+}
+
+.rodape p {
+  font-size: 16px;
+  color: #98a2b3;
+  margin-top: 2em;
+}

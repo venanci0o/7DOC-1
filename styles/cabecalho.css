@@ -1,0 +1,27 @@
+.seçao1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em;
+}
+
+.seçao1__textinho {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vermelho);
+  margin: 1em 0.5em;
+}
+
+.seçao1__tit {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--cinza-escuro);
+  margin: 0.8em 0.5em;
+}
+
+.seçao1__parag {
+  font-size: 20px;
+  color: var(--cinza);
+  text-align: center;
+  margin: 0.5em 8em; /* cima e baixo valor 1, direita e esquerda valor 2 */
+}

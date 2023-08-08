@@ -1,0 +1,35 @@
+.talentos__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 8em;
+}
+
+.talentos {
+  margin: 5em;
+}
+.talentos__textinho {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vermelho);
+  background: var(--gradiente);
+  border-radius: 16px;
+  padding: 0.4em 0.75em;
+}
+
+.talentos__titulo {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--cinza-escuro);
+  padding: 1.2em;
+}
+
+.talentos__parag {
+  font-size: 20px;
+  color: var(--cinza);
+}
+
+.talentos__img {
+  align-items: center;
+  width: 100%;
+}
